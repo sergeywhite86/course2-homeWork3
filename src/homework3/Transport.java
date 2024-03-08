@@ -1,6 +1,6 @@
 package homework3;
 
-public class Transport implements HavingWheelsInterface {
+public abstract class Transport {
     private String modelName;
     private int wheelsCount;
 
@@ -9,6 +9,7 @@ public class Transport implements HavingWheelsInterface {
         this.wheelsCount = wheelsCount;
     }
 
+    abstract  public void updateTyre();
     public String getModelName() {
         return modelName;
     }

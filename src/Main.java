@@ -15,8 +15,7 @@ public class Main {
 
 
         ServiceStation station = new ServiceStation();
-        List<Transport> transportList = List.of(car,car2,truck,truck2,bicycle,bicycle2);
+        List<Maintainable> transportList = List.of(car,car2,truck,truck2,bicycle,bicycle2);
         transportList.forEach(station::check);
-
     }
 }
